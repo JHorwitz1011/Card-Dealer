@@ -13,7 +13,7 @@ AccelStepper motion = AccelStepper(4,5,6,7); */
 
 bool button = true;
 int count = 0;
-double length = 111.0F;
+double length = 98.0F;
 
 void welcomeScreen()
 {
@@ -138,6 +138,6 @@ void setup()
 
   playerInit();
   digitalWrite(5, HIGH);
-  delay(60);
+  delay(45);
   digitalWrite(5, LOW);
 }
